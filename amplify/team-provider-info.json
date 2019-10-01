@@ -9,6 +9,13 @@
             "UnauthRoleName": "fb-social-demo-dev-20191001095204-unauthRole",
             "StackName": "fb-social-demo-dev-20191001095204",
             "StackId": "arn:aws:cloudformation:us-east-2:086785860617:stack/fb-social-demo-dev-20191001095204/07ea6730-e45b-11e9-9619-060bd4c8b7ba"
+        },
+        "categories": {
+            "auth": {
+                "fbsocialdemo59170387": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"736189026834150\",\"client_secret\":\"f291be0145e1dd4c90a94bd43a1e14c2\"}]"
+                }
+            }
         }
     }
 }

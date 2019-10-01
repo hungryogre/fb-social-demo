@@ -1,1 +1,9 @@
-{}
+{
+	"auth": {
+		"fbsocialdemo59170387": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}
