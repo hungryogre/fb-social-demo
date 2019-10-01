@@ -1,5 +1,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Get Started
+1.  Create your [AWS cloud account](https://console.aws.amazon.com).
+1.  Install the AWS NodeJS CLI: `npm i -g @aws-amplify/cli`
+1.  Run `amplify configure` to access your account.
+1.  Clone this repo.
+1.  Run `amplify init` at the root directory of the app to create the backend roles and buckets.
+1.  Create a [Facebook developer account](https://developer.facebook.com).
+1.  Create a Facebook app, making a note of the App ID and App Secret.
+1.  Run `amplify add auth` to configure a User Pool using federated identities (ie, social login), using the App ID and App Secret from the previous step.
+1.  Run `amplify push` to instantiate the User Pool and authentication framework in AWS.
+1.  Update the Facebook app with a website App URL, of the form `https://yourawsurl.aws.com/oauth2/idpresponse`
+1.  Update the Facebook app's App Domain with the domain of the above URL, eg, `https://yourawsurl.aws.com/`
+1.  Under Facebook Login Settings, add the URL to the Valid OAuth Redirect URIs, eg, `https://yourawsurl.aws.com/oauth2/idpresponse`
+
 ## Available Scripts
 
 In the project directory, you can run:
