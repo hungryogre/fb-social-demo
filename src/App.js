@@ -26,7 +26,7 @@ class App extends Component {
         </a>
                     <button onClick={this.props.OAuthSignIn}>
                         Sign in with Facebook
-        </button>
+                    </button>
                 </header>
             </div>
         )
