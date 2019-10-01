@@ -66,3 +66,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Resources
+The foundation for this repo is found in [this](https://aws.amazon.com/blogs/mobile/amplify-framework-simplifies-configuration-for-oauth-flows-the-hosted-ui-and-ar-vr-scenes-for-mobile-and-web-developers/) guide.  Be sure to follow the [instructions](https://aws-amplify.github.io/docs/js/cognito-hosted-ui-federated-identity) which detail the steps needed to a) create the app before adding authentication with `amplify add auth` and b) configure the app in [FB](developer.facebook.com) with the callback URL and app domain.  Failing to complete the latter step will result in the following error:
+> Can't Load URL: The domain of this URL isn't included in the app's domains. To be able to load this URL, add all domains and subdomains of your app to the App Domains field in your app settings.
+
+PDF versions of these pages have been added to the docs folder.
