@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "fb-social-demo-dev-20191001095204-authRole",
+            "UnauthRoleArn": "arn:aws:iam::086785860617:role/fb-social-demo-dev-20191001095204-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::086785860617:role/fb-social-demo-dev-20191001095204-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "fb-social-demo-dev-20191001095204-deployment",
+            "UnauthRoleName": "fb-social-demo-dev-20191001095204-unauthRole",
+            "StackName": "fb-social-demo-dev-20191001095204",
+            "StackId": "arn:aws:cloudformation:us-east-2:086785860617:stack/fb-social-demo-dev-20191001095204/07ea6730-e45b-11e9-9619-060bd4c8b7ba"
+        }
+    }
+}
